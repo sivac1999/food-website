@@ -1,0 +1,251 @@
+@media (max-width: 660px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .conrainer .navbar {
+       display: block; /* Initially hide the navbar */
+        flex-wrap: wrap;
+        display: none;
+        align-self: flex-start;
+        margin: 5px 0px;
+    }
+    .conrainer{
+        background-color: transparent;
+    }
+    .ins{
+        display: block;
+        position: absolute;
+        top: 31px;
+        right: 25px;
+    }
+    .icon{
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+    .navbar li{
+        display: block;
+        margin: 8px 0px;
+    }
+    #toggle:checked~ .navbar  {
+        display: block; /* Show the navbar when the checkbox is checked */
+      
+      
+    }
+    .nav-btn{
+        margin-right: 50px;
+        display: none;
+    }
+    .navbar{
+        padding-right: 139px;
+        padding-top: 24px;
+        
+    }
+    /**homepage=================================*/
+    .home-row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .home-cols{
+        width: 100%;
+       
+    }
+    .home-cols1{
+        width:100%;
+    }
+    /*================================About section=================*/
+    .about-row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-left-col{
+        width: 100%;
+    }
+    .about-right-col{
+        width: 100%;
+    }
+    .about-footer-row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-footer-col1{
+        width: 100%;
+    }
+    .about-footer-col{
+        width: 100%;
+    }
+    .about-footer-col-icon{
+        margin-left: 126px;
+    }
+.about-footer-img-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 115px;
+
+}
+.about-footer-img-div-col{
+    width: 100%;
+}
+/*-----------------------------------------------------MENYU SECTION---------------------------------------------------------------------------------*/
+.menu-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-col-div{
+    width: 100%;
+}
+/*------------------------------------------------------------EVENTS SECTIION-------------------------------------------*/
+.event-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.event-col1{
+    width: 100%;
+}
+.event-col2{
+    width: 100%;
+}
+.event-col3{
+    width: 100%;
+}
+/*-----------------------------------chef-section--------------------------------------------------*/
+.chef-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.chef-col{
+    width: 100%;
+}
+
+/*----------------------------------BOOK tables-section--------------------------*/
+.booktable-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.booktable-left-img-col{
+    width: 100%;
+}
+.booktable-right-col{
+    width: 100%;
+}
+.booktable-right-col-input-div1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+   
+}
+.booktable-right-col-input-div2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px 0px 61px;
+    
+}
+.booktable-right-col-input-div3{
+    padding: 10px 0px 0px 58px;
+}
+.booktable-right-col-input-div3 input{
+    width: 200px;
+}
+.booktable-right-col-input-div1 input{
+    margin: 5px 0px;
+}
+.booktable-right-col-input-div2 input{
+    margin: 5px 0px;
+    padding: 10px;
+}
+.ins3{
+    width: 205px;
+}
+/*Gallery-section*/
+.gallry-section-row{
+    display: flex;
+    flex-wrap:wrap;
+}
+.gallry-section-col{
+    width: 100%;
+}
+/*contect---------------section========================================*/
+.contact-section-row2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px 0px 0px;
+}
+.contact-section-row2-col{
+    width: 100%;
+    margin: 5px 0px;
+}
+}
+/***********************************************************************LAPTOP*******************************************/
+@media (min-width:960px) {
+    .ins{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+    .home-cols{
+        width: 45%;
+       
+    }
+    .home-cols1{
+        width: 40%;
+    }
+    /*========================About==section=================*/
+    .about-left-col{
+        width: 55%;
+    }
+    .about-right-col{
+        width: 40%;
+    }
+    .about-footer-col1{
+        width: 30%;
+    }
+    .about-footer-col{
+        width: 20%;
+    }
+    .about-footer-col-icon{
+        margin-left: 78px;
+    }
+    .about-footer-img-div-col{
+        width: 20%;
+    }
+    /*------------------------------------------Menu Section------------------------------------------------------------------------*/
+    .menu-col-div{
+        width: 20%;
+    }
+    .TESTIMONIALS-div{
+        height: 200px;
+    }
+    /*-----------------------------event -----------------section---------------------------------------------------------*/
+    .event-col1{
+        width: 35%;
+    }
+    .event-col2{
+        width: 35%;
+    }
+    .event-col3{
+        width: 35%;
+    }
+    /*-----------------------------------------------------chef section------------------------------*/
+    .chef-col{
+        width: 30%;
+    }
+    /*------------------------------------------------------BOOK Tabel-----------------------------------*/
+    .booktable-left-img-col{
+        width: 30%;
+    }
+    .booktable-right-col{
+        width: 70%;
+    }
+    /*---------------------------------------------------galeery-section---------------------------------------*/
+    .gallry-section-col{
+        width: 18%;
+    }
+    /*--------------------------------------------------conatct seection---------------------------------------------------*/
+    .contact-section-row2-col{
+        width: 45%;
+    }
+}
